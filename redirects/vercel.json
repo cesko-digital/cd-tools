@@ -20,9 +20,15 @@
     },
     {
       "source": "/",
-      "destination": "https://inkluze.cesko.digital/",
+      "destination": "https://www.cesko.digital/projekty/digitalni-inkluze/home",
       "has": [{ "type": "host", "value": "vylouceni.cesko.digital" }],
-      "statusCode": 302
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "destination": "https://www.cesko.digital/projekty/digitalni-inkluze/home",
+      "has": [{ "type": "host", "value": "inkluze.cesko.digital" }],
+      "statusCode": 301
     },
     {
       "source": "/",
