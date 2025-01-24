@@ -50,6 +50,18 @@
     },
     {
       "source": "/",
+      "destination": "https://sluzby.digital",
+      "has": [{ "type": "host", "value": "xn--sluby-wib.digital" }],
+      "statusCode": 302
+    },
+    {
+      "source": "/",
+      "destination": "https://www.cesko.digital/projekty/digitalni-partnerstvi/home",
+      "has": [{ "type": "host", "value": "sluzby.digital" }],
+      "statusCode": 301
+    },
+    {
+      "source": "/",
       "destination": "https://anchor.fm/poslouchatdigital",
       "has": [{ "type": "host", "value": "poslouchat.digital" }],
       "statusCode": 301
