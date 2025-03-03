@@ -38,7 +38,7 @@
     },
     {
       "source": "/",
-      "destination": "https://app.cesko.digital/projects/nezisk-digital",
+      "destination": "https://www.cesko.digital/projekty/nezisk-digital/kurz-nezisk-digital",
       "has": [{ "type": "host", "value": "nezisk.digital" }],
       "statusCode": 301
     },
