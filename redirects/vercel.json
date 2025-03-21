@@ -62,6 +62,12 @@
     },
     {
       "source": "/",
+      "destination": "https://cesko.digital",
+      "has": [{ "type": "host", "value": "data.cesko.digital" }],
+      "statusCode": 301
+    },
+    {
+      "source": "/",
       "destination": "https://diskutuj.digital/c/nezisk-digital/8",
       "has": [{ "type": "host", "value": "nezisk.diskutuj.digital" }],
       "statusCode": 301
