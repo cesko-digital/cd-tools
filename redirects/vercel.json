@@ -50,7 +50,7 @@
     },
     {
       "source": "/",
-      "destination": "https://www.cesko.digital/projekty/digitalni-partnerstvi/home",
+      "destination": "https://www.cesko.digital/projekty/sluzby-digital/home",
       "has": [{ "type": "host", "value": "sluzby.digital" }],
       "statusCode": 301
     },
