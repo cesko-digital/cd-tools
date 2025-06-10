@@ -121,6 +121,18 @@
       "destination": "https://koncepce.knihovna.cz",
       "has": [{ "type": "host", "value": "knihovny.digital" }],
       "statusCode": 301
+    },
+    {
+      "source": "/.well-known/host-meta",
+      "destination": "https://mastodon.cesko.digital/.well-known/host-meta",
+      "has": [{ "type": "host", "value": "test.cesko.digital" }],
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://www.cesko.digital/:path",
+      "has": [{ "type": "host", "value": "test.cesko.digital" }],
+      "statusCode": 301
     }
   ],
   "rewrites": [
