@@ -38,6 +38,12 @@
     },
     {
       "source": "/",
+      "destination": "https://www.cesko.digital/projekty/nezisk-digital/online-kurz-nezisk-digital",
+      "has": [{ "type": "host", "value": "kurz.nezisk.digital" }],
+      "statusCode": 302
+    },
+    {
+      "source": "/",
       "destination": "https://pomahame.digital",
       "has": [{ "type": "host", "value": "xn--pomhme-rtab.digital" }],
       "statusCode": 302
