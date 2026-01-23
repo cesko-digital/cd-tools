@@ -44,6 +44,12 @@
     },
     {
       "source": "/",
+      "destination": "https://www.cesko.digital/projekty/nezisk-digital/digitalni-expert",
+      "has": [{ "type": "host", "value": "konzultace.nezisk.digital" }],
+      "statusCode": 302
+    },
+    {
+      "source": "/",
       "destination": "https://pomahame.digital",
       "has": [{ "type": "host", "value": "xn--pomhme-rtab.digital" }],
       "statusCode": 302
