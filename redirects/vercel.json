@@ -50,6 +50,12 @@
     },
     {
       "source": "/",
+      "destination": "https://www.cesko.digital/projekty/nezisk-digital/inspirativni-pribehy-z-kurzu-nezisk-digital",
+      "has": [{ "type": "host", "value": "inspirace.nezisk.digital" }],
+      "statusCode": 302
+    },
+    {
+      "source": "/",
       "destination": "https://pomahame.digital",
       "has": [{ "type": "host", "value": "xn--pomhme-rtab.digital" }],
       "statusCode": 302
